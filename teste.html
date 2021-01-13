@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1 id="teste1">
+
+    </h1>
+
+    <h1 id="teste4">
+
+    </h1>
+
+    <h1 id="teste2">
+
+    </h1>
+
+    <h1 id="teste3">
+
+    </h1>
+
+    <h1 id="teste5">
+
+    </h1>
+
+    <h1 id="teste6">
+
+    </h1>
+
+    <script>
+        let Perguntas = new perguntas()
+
+        w = Perguntas.numeroAleatorio()
+        document.getElementById('teste1').innerHTML = w
+
+        y = Perguntas.esquerdoDireito()
+
+        document.getElementById('teste6').innerHTML =  y
+
+        var w = document.getElementById('teste1').innerHTML
+
+        document.getElementById('teste4').innerHTML = 'Pergunta : ' + Perguntas.selecionarPerguntas(w)
+
+        document.getElementById('teste2').innerHTML = 'resposta certa : ' + Perguntas.selecionarRespostaCerta(w)
+        document.getElementById('teste3').innerHTML = 'resposta errada : ' +  Perguntas.selecionarRespostaErrada(w)
+        document.getElementById('teste5').innerHTML =  Perguntas.numeroAleatorio2()
+
+        // document.getElementById('teste3').innerHTML = numeroAleatorio()
+    </script>
+</body>
+</html>

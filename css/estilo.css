@@ -61,12 +61,12 @@
     margin-top: 0.8em;
     /* border: 1px solid red; */
     font-size: 5em;
-    color: rgba(206,55,60,1);
+    color: rgb(8, 4, 4);
     border-bottom: 1px solid #fafaf5;
 }
 
 #ctnEsquerdo{
-    width: 950px;
+    width: 500px;
     height: 400px;
     margin-top: 20em;
     float: left;
@@ -95,7 +95,7 @@
 }
 
 #ctnDireito{
-    width: 950px;
+    width: 500px;
     height: 400px;
     margin-top: 20em;
     float: right;

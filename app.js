@@ -140,19 +140,19 @@ function testarEsquerda(){
 
     if(document.getElementById('inputEsquerdo').value == 'certa'){
         console.log('acertouuuuu')
-        window.location.href = "http://localhost/meusProjetos/Quiz/certa.html" 
+        window.location.href = "certa.html" 
     }
     else {
-        window.location.href = "http://localhost/meusProjetos/Quiz/errada.html" 
+        window.location.href = "errada.html" 
     }
 }
 
 function testarDireito(){
 
     if(document.getElementById('inputDireito').value == 'certa'){
-        window.location.href = "http://localhost/meusProjetos/Quiz/certa.html" 
+        window.location.href = "certa.html" 
     }
     else {
-        window.location.href = "http://localhost/meusProjetos/Quiz/errada.html" 
+        window.location.href = "errada.html" 
     }
 }
